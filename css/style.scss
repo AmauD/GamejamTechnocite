@@ -1,4 +1,33 @@
 * {
   padding: 0;
   margin: 0;
+  font-family: "Lato", sans-serif;
+}
+
+header {
+  nav {
+    background-color: rgb(31, 29, 29);
+    padding: 40px;
+    text-align: center;
+
+    a {
+      text-decoration: none;
+      color: whitesmoke;
+
+      h1 {
+        .text {
+          color: rgb(81, 79, 79);
+        }
+      }
+    }
+  }
+}
+
+body {
+  img {
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 }
